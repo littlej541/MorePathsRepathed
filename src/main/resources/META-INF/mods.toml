@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="MIT License"
+
+[[mods]]
+modId="morepaths"
+version="1.0"
+displayName="More Paths Repathed"
+credits="Huge credit to my constant anger towards missing dirt and grass slabs!"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/more-paths-repathed"
+authors="Kuraion"
+logoFile="logo.png"
+description='''Adds paths for new blocks'''
+
+[[dependencies.morepaths]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,]"
+    ordering="NONE"
+    side="BOTH"

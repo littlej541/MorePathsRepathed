@@ -1,0 +1,13 @@
+{
+
+    "block.morepaths.coarse_dirt_path" : "Sentier de terre st\u00e9rile",
+    "block.morepaths.gravel_path" : "Sentier de gravelle",
+    "block.morepaths.sand_path" : "Sentier de sable",
+    "block.morepaths.snow_path" : "Sentier de neige",
+    "block.morepaths.red_sand_path" : "Sentier de sable rouge",
+    "block.morepaths.mycelium_path" : "Sentier de myc\u00e9lium",
+    "block.morepaths.podzol_path" : "Sentier de podzol",
+    "block.morepaths.crimson_nylium_path" : "Sentier de nylium cramoisi",
+    "block.morepaths.warped_nylium_path" : "Sentier de nylium tordu"
+    
+}

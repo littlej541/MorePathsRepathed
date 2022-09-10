@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "morepaths:snow_path",
+    "morepaths:gravel_path",
+    "morepaths:coarse_dirt_path",
+    "morepaths:sand_path",
+    "morepaths:red_sand_path",
+    "morepaths:podzol_path",
+    "morepaths:mycelium_path"
+  ]
+}

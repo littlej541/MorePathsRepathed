@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "morepaths:block/red_sand_path" },
+            { "model": "morepaths:block/red_sand_path", "y": 90 },
+            { "model": "morepaths:block/red_sand_path", "y": 180 },
+            { "model": "morepaths:block/red_sand_path", "y": 270 }
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "morepaths:block/podzol_path" },
+            { "model": "morepaths:block/podzol_path", "y": 90 },
+            { "model": "morepaths:block/podzol_path", "y": 180 },
+            { "model": "morepaths:block/podzol_path", "y": 270 }
+        ]
+    }
+}

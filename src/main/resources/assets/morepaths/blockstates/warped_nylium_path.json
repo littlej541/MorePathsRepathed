@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "morepaths:block/warped_nylium_path" },
+            { "model": "morepaths:block/warped_nylium_path", "y": 90 },
+            { "model": "morepaths:block/warped_nylium_path", "y": 180 },
+            { "model": "morepaths:block/warped_nylium_path", "y": 270 }
+        ]
+    }
+}

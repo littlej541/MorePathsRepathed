@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "": [
+            { "model": "morepaths:block/gravel_path" },
+            { "model": "morepaths:block/gravel_path", "y": 90 },
+            { "model": "morepaths:block/gravel_path", "y": 180 },
+            { "model": "morepaths:block/gravel_path", "y": 270 }
+        ]
+    }
+}

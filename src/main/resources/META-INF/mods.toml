@@ -6,11 +6,11 @@ license="MIT License"
 modId="morepaths"
 version="1.0"
 displayName="More Paths Repathed"
-credits="Huge credit to my constant anger towards missing dirt and grass slabs!"
+credits="Credit goes to Belkorin for the original mod!"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/more-paths-repathed"
 authors="Kuraion"
 logoFile="logo.png"
-description='''Adds paths for new blocks'''
+description='''Adds more paths to Minecraft!'''
 
 [[dependencies.morepaths]]
     modId="minecraft"

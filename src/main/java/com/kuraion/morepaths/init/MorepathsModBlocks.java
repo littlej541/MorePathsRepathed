@@ -3,8 +3,6 @@ package com.kuraion.morepaths.init;
 import com.kuraion.morepaths.MorepathsMod;
 import com.kuraion.morepaths.blocks.OtherPathBlock;
 import com.kuraion.morepaths.config.ServerConfig;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DirtPathBlock;

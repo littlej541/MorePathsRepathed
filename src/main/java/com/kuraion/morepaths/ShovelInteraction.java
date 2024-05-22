@@ -12,7 +12,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.gameevent.GameEvent;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.common.ToolActions;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -43,8 +42,7 @@ public class ShovelInteraction {
 
         Level world = event.getLevel();
 
-        Material blockAbove = world.getBlockState(pos.above()).getMaterial();
-        if(blockAbove != Material.AIR)
+        if(!world.getBlockState(pos.above()).isAir())
             return;
 
         Block targetBlock = world.getBlockState(pos).getBlock();

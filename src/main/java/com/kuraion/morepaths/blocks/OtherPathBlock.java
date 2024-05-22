@@ -32,7 +32,7 @@ public class OtherPathBlock extends DirtPathBlock {
     private static Properties getProperties(Block pathedFrom) {
         BlockState state = pathedFrom.defaultBlockState();
 
-        return Block.Properties.of(state.getMaterial(), state.getMaterial().getColor()).strength(state.getDestroySpeed(null, null)).sound(state.getSoundType());
+        return Block.Properties.of().mapColor(pathedFrom.defaultMapColor()).strength(pathedFrom.defaultDestroyTime()).sound(pathedFrom.getSoundType(state));
     }
 
     @Override

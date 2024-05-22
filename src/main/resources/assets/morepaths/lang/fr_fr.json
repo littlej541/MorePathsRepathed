@@ -8,6 +8,7 @@
     "block.morepaths.mycelium_path" : "Chemin dans la myc\u00e9lium",
     "block.morepaths.podzol_path" : "Chemin dans la podzol",
     "block.morepaths.crimson_nylium_path" : "Chemin dans la nylium carmin",
-    "block.morepaths.warped_nylium_path" : "Chemin dans la nylium biscornu"
+    "block.morepaths.warped_nylium_path" : "Chemin dans la nylium biscornu",
+    "block.morepaths.rooted_dirt_path" : "Chemin dans la terre racineuse"
     
 }

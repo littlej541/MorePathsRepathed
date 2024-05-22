@@ -27,6 +27,7 @@ public class MorepathsModBlocks {
     public static final RegistryObject<Block> MYCELIUM_PATH = BLOCKS.register("mycelium_path", () -> createBlock(Blocks.MYCELIUM));
     public static final RegistryObject<Block> CRIMSON_GRASS_PATH = BLOCKS.register("crimson_nylium_path", () -> createBlock(Blocks.CRIMSON_NYLIUM));
     public static final RegistryObject<Block> WARPED_GRASS_PATH = BLOCKS.register("warped_nylium_path", () -> createBlock(Blocks.WARPED_NYLIUM));
+    public static final RegistryObject<Block> ROOTED_DIRT_PATH = BLOCKS.register("rooted_dirt_path", () -> createBlock(Blocks.ROOTED_DIRT));
 
     static HashMap<Block, DirtPathBlock> ALL_PATHS = new HashMap<Block, DirtPathBlock>();
 

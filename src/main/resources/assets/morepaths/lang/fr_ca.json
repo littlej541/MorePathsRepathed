@@ -8,6 +8,7 @@
     "block.morepaths.mycelium_path" : "Sentier de myc\u00e9lium",
     "block.morepaths.podzol_path" : "Sentier de podzol",
     "block.morepaths.crimson_nylium_path" : "Sentier de nylium cramoisi",
-    "block.morepaths.warped_nylium_path" : "Sentier de nylium tordu"
+    "block.morepaths.warped_nylium_path" : "Sentier de nylium tordu",
+    "block.morepaths.rooted_dirt_path" : "Sentier de terre racineuse"
     
 }

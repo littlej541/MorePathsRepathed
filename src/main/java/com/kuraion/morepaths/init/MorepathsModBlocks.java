@@ -3,6 +3,7 @@ package com.kuraion.morepaths.init;
 import com.kuraion.morepaths.MorepathsMod;
 import com.kuraion.morepaths.blocks.OtherPathBlock;
 import com.kuraion.morepaths.config.ServerConfig;
+import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DirtPathBlock;
@@ -31,6 +32,7 @@ public class MorepathsModBlocks {
 
     private static OtherPathBlock createBlock(Block fromBlock) {
         OtherPathBlock regBlock = new OtherPathBlock(fromBlock);
+        ShovelItem.FLATTENABLES.put(fromBlock, regBlock.defaultBlockState());
         ALL_PATHS.put(fromBlock, regBlock);
         return regBlock;
     }

@@ -37,7 +37,6 @@ public class MorepathsMod {
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, ServerConfig.SERVER_CONFIG);
 
         MinecraftForge.EVENT_BUS.addListener(OtherPathBlock::doPlayerHarvestCheck);
-        MinecraftForge.EVENT_BUS.addListener(ShovelInteraction::onRightClick);
     }
 
     public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,
